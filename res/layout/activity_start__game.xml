@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background8">
+
+    <Spinner
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <Spinner
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp2"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="PLAY"
+        android:id="@+id/play"
+        android:layout_below="@+id/sp2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:textStyle="bold|italic"
+        android:background="@drawable/background9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Players"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select War Zone"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/sp"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/connectinglines" />
+</RelativeLayout>
